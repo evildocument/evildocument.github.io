@@ -19,7 +19,9 @@ html, body {
     -webkit-background-size: cover;
     -ms-content-zooming: none;
     height:100vh;
+    
     position: relative;
+   
     z-index: -1;
 }
 .blur {
@@ -36,12 +38,20 @@ html, body {
   margin: auto;
   text-align: center;
 }
-#angel {
-    max-width: 50vmin;
+#vomit {
+    max-width: 10vmin;
 }
-
+.latest {
+    margin: 10vmin 25%;
+    padding: 10vmin;
+    background-color: black;
+    border: 2px solid;
+    border-color: rgb(9, 255, 0);
+}
+#latest-text {
+    padding-top: 1vmin;
+}
 #content {
-
     text-align: center;
 }
 a {
@@ -49,12 +59,12 @@ a {
     text-decoration: none;
 }
 .redhover:hover {
-    color:red;
+    color:rgb(9, 255, 0);
 
 }
-#titulo {
-    font-size: 4vmin;
-    padding: 5vmin 0 2.5vmin 0;
+#title {
+    font-size: 3vmin;
+    margin-top: -8vmin;
 }
 /* padding and margin break the background due to too much space, adding an white bar, how do i fix dat? */
 #post {
@@ -67,9 +77,7 @@ a {
     padding: 8vmin;
     max-width: 30vmin;
 }
-#lol {
-    margin-bottom: 5vmin;
-}
+
 .platforms img {
     transition: 0.3s;
 }
@@ -77,13 +85,28 @@ a {
     transform: translate(0, -10px);
 }
 .writeup-list {
-    padding-top: 5vmin;
-    margin: 0 25%;
+    margin: 5vmin 25%;
+    border: 2px solid;
+    border-color: rgb(9, 255, 0);
     
+}
+#overall-title {
+    font-size: 4vmin;
+    padding: 5vmin 0 2.5vmin 0;
+}
+.banner-bg {
+    background-image: url("../imgs/banner.png"); 
+    background-color: rgba(0, 0, 0, 0.486);
+    background-blend-mode: lighten;
+    background-size: cover;
+    background-position: center;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    -ms-content-zooming: none;
 }
 .writeup-list ul {
     padding: 1vmin;
-    background-color: rgba(0, 0, 0, 0.767);
     list-style: none;
 }
 .writeup-list li {
