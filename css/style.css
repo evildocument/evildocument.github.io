@@ -42,14 +42,17 @@ html, body {
     max-width: 10vmin;
 }
 .latest {
-    margin: 10vmin 25%;
-    padding: 10vmin;
+    margin: 5vmin 25%;
+    padding: 8vmin;
     background-color: black;
     border: 2px solid;
     border-color: rgb(9, 255, 0);
 }
 #latest-text {
     padding-top: 1vmin;
+}
+#latest-text p{
+    font-size:1.5vmin;
 }
 #content {
     text-align: center;
@@ -91,7 +94,7 @@ a {
     
 }
 #overall-title {
-    font-size: 4vmin;
+    font-size: 3.5vmin;
     padding: 5vmin 0 2.5vmin 0;
 }
 .banner-bg {
