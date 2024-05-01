@@ -42,8 +42,8 @@ html, body {
     max-width: 10vmin;
 }
 .latest {
-    margin: 5vmin 25%;
-    padding: 8vmin;
+    margin: 3.5vmin 25% 0 25%;
+    padding: 4vmin;
     background-color: black;
     border: 2px solid;
     border-color: rgb(9, 255, 0);
@@ -52,7 +52,7 @@ html, body {
     padding-top: 1vmin;
 }
 #latest-text p{
-    font-size:1.5vmin;
+    font-size:0.8rem;
 }
 #content {
     text-align: center;
@@ -66,8 +66,9 @@ a {
 
 }
 #title {
-    font-size: 3vmin;
-    margin-top: -8vmin;
+    font-weight: 300;
+    font-size: 1.3rem;
+    margin-top: -1.5rem;
 }
 /* padding and margin break the background due to too much space, adding an white bar, how do i fix dat? */
 #post {
@@ -119,6 +120,13 @@ a {
     padding: 0 0.5vmin 0 0;
     max-width: 2.5vmin;
     vertical-align: middle;
+}
+.posts-main {
+    
+}
+.footer {
+    background: red;
+    padding: 300px;
 }
 @media screen and (max-width: 481px) {
     #post {
